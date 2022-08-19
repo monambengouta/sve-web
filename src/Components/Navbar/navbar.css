@@ -7,7 +7,10 @@
 .nav {
     display: flex;
     align-items: center;
-    background-color: rgb(140, 6, 173);
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    line-height: 50px;
     padding: 20px;
 }
 
@@ -22,6 +25,7 @@ a {
 
 .logo {
     width: 60px;
+    margin-left: 20px;
 }
 
 /**------------navbar menu css------------**/
@@ -54,6 +58,7 @@ a {
     text-transform: uppercase;
     opacity: 1;
     white-space: nowrap;
+    margin: 0 10px;
 }
 
 /**------------navbar connection css------------**/
@@ -67,6 +72,11 @@ a {
     border-radius: 36px;
     opacity: 1;
     margin-right: 27px;
+    /* UI Properties */
+    font: normal normal 600 20px/27px Segoe UI;
+    letter-spacing: 0px;
+    color: #141B86;
+    text-transform: uppercase;
 }
 
 
