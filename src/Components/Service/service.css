@@ -1,0 +1,59 @@
+.container{
+    /* Layout Properties */
+top: 1026px;
+left: 266px;
+width: 390px;
+height: 542px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 6px 6px 15px #0000001C;
+opacity: 0.58;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin: 50px;
+}
+
+
+.service__title{
+    top: 1284px;
+left: 391px;
+width: 112px;
+height: 38px;
+text-align: center;
+font: normal normal bold 30px/38px Futura PT;
+letter-spacing: 0px;
+color: #5490D5;
+opacity: 1;
+}
+.service__description{
+    /* Layout Properties */
+top: 1334px;
+left: 278px;
+width: 367px;
+height: 81px;
+/* UI Properties */
+text-align: center;
+letter-spacing: 0px;
+color: #141B86;
+opacity: 1;
+}
+
+.service__btn{
+    top: 1459px;
+left: 352px;
+width: 193px;
+height: 58px;
+background: #5490D5 0% 0% no-repeat padding-box;
+box-shadow: 3px 3px 6px #00000029;
+opacity: 1;
+border-radius: 20px;
+border-color: #FFFFFF;
+/* UI Properties */
+text-align: center;
+font: normal normal 600 25px/33px Segoe UI;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}

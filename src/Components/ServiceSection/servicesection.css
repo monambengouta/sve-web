@@ -1,0 +1,53 @@
+.service__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.services__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../../assets/home_assets/Rectangle_43.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.services__header{
+    top: 0px;
+    left: 130px;
+    width: 244px;
+    height: 65px;
+    text-align: left;
+    font: normal normal normal 56px/65px Gill Sans MT;
+    letter-spacing: 0px;
+    color: #141B86;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+}
+span{
+    top: 0px;
+left: 0px;
+width: 130px;
+height: 65px;
+text-align: left;
+font: normal normal bold 56px/65px Gill Sans MT;
+letter-spacing: 0px;
+color: #141B86;
+text-transform: uppercase;
+margin-right: 10px;
+}
+.services__body{
+    top: 910px;
+left: 598px;
+width: 725px;
+height: 33px;
+text-align: left;
+font: normal normal bold 25px/33px Segoe UI;
+letter-spacing: 0px;
+color: #141B86;
+opacity: 1;
+}
