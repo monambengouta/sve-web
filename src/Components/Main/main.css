@@ -24,11 +24,12 @@ letter-spacing: 0px;
 color: #FFFFFF;
 text-transform: uppercase;
 opacity: 1;
+position: inherit;
 }
 .description{
-    top: 33px;
+top: 33px;
 left: 8px;
-width: 649px;
+width: 700px;
 height: 33px;
 text-align: center;
 font: normal normal 600 25px/33px Segoe UI;
@@ -73,5 +74,5 @@ ul{
     position: absolute;
   right: 0px;
    bottom: 0px;
-    margin: 25px;
+    margin-right: 25px;
 }
