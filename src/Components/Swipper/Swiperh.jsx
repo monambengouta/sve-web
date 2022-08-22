@@ -10,8 +10,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-export default function Swiperh ()  {
-  const swiper = useSwiper();
+export default function Swiperh ({setIndex})  {
   const data = [{
     title: "RAPIDITÉ", description: "Pas besoin d'ordinateur ou d'etre chez soit ou avec pour se connecter.", picture: "1.png"
   }, {
@@ -27,10 +26,12 @@ export default function Swiperh ()  {
       slidesPerView={1}
       navigation
       pagination={{ clickable: true }}
+      onSlideChange={(e) => setIndex(e.activeIndex)}
+
     >
         <SwiperSlide ><Switcher switcher={data[0]} /></SwiperSlide>
         <SwiperSlide > <Switcher switcher={data[1]} /></SwiperSlide>
-        <SwiperSlide > <Switcher switcher={data[1]} /></SwiperSlide>
+        <SwiperSlide > <Switcher switcher={data[2]} /></SwiperSlide>
     </Swiper>
   );
 };

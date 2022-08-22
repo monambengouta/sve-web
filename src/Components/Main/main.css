@@ -1,6 +1,6 @@
 .main__section{
     background: url(../../assets/home_assets/main.png) no-repeat center center fixed;
-    background-size: center;
+    background-size: cover;
     background-position: center;
     height: 100vh;
     display: flex;
