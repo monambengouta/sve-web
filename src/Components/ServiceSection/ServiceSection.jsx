@@ -11,7 +11,7 @@ function ServiceSection() {
         ]
 
   return (
-    <div className='services__container'>
+    <section className='services__container'>
         <div className="services__header"><span>NOS </span> SERVICES</div>
         <div className="services__body">la sécurité devrait être un droit ; on en fait notre obligation !</div>
     <div className='service__list'>
@@ -20,7 +20,7 @@ function ServiceSection() {
             return (
                 <Service Service={item} key={index}/>)})}
     </div>
-    </div>
+    </section>
   )
 }
 

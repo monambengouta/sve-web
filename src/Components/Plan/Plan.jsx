@@ -1,12 +1,11 @@
 import { useState } from 'react';
 import React from 'react'
 import './plan.css'
-import Swiperh from '../../Components/Swipper/Swiperh';
+import Swiperh from '../../Components/Swiperh/Swiperh';
 
 function Plan() {
-  const [monam,setMonam] = useState(0);
+  const [index,setIndex] = useState(0);
 
-console.log(monam)
   return (
     <>
     <div className="plan__container">
@@ -14,14 +13,14 @@ console.log(monam)
       <div className="plan__description">
         Où que vous soyez, nous ne sommes qu'à un click de vous.
       </div>
-        <Swiperh setIndex={setMonam} />
+        <Swiperh setIndex={setIndex} />
     </div>
      <div className="switcher_line">
-        <img src={require('../../assets/home_assets/Groupe60.png')} alt="Groupe60.png" style={{backgroundColor:monam===0?"red":""}} />
+        <img src={require('../../assets/home_assets/'+(index === 0 ? "Groupe60.png" : "Groupe6.png"))} alt={index === 0 ? "Groupe60.png" : "Groupe6.png"  }/>
         <div className="line"></div>
-        <img src={require('../../assets/home_assets/Groupe71.png')} alt="Groupe71.png" style={{backgroundColor:monam===1?"red":""}}   />
+        <img src={require('../../assets/home_assets/'+(index === 1 ? "Groupe70.png" : "Groupe7.png"))} alt={index === 1 ? "Groupe70.png" : "Groupe7.png" }   />
         <div className="line"></div>
-        <img src={require('../../assets/home_assets/Groupe76.png')} alt="Groupe76.png" style={{backgroundColor:monam===2?"red":""}}   />
+        <img src={require('../../assets/home_assets/'+(index === 2 ? "Groupe80.png" : "Groupe8.png"))} alt={index === 2 ? "Groupe80.png" : "Groupe8.png"}   />
       </div>
       </>
   )

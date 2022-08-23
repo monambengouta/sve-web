@@ -1,0 +1,66 @@
+.experience__container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-left: 150px;
+  background: #f3f3f9 0% 0% no-repeat padding-box;
+  width: 1650px;
+  height: 614px;
+}
+
+.experience__title {
+  /* Layout Properties */
+  top: 1737px;
+  left: 672px;
+  width: 576px;
+  height: 65px;
+  /* UI Properties */
+  text-align: left;
+  letter-spacing: 0px;
+  color: #141b86;
+  text-transform: uppercase;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.experience__title__notre {
+  top: 0px;
+  left: 0px;
+  width: 210px;
+  height: 65px;
+  text-align: left;
+  font: normal normal bold 56px/65px Gill Sans MT;
+  letter-spacing: 0px;
+  color: #141b86;
+  text-transform: uppercase;
+}
+
+.experience__title__experience {
+  top: 0px;
+  left: 210px;
+  width: 327px;
+  height: 65px;
+  text-align: left;
+  font: normal normal normal 56px/65px Gill Sans MT;
+  letter-spacing: 0px;
+  color: #141b86;
+  text-transform: uppercase;
+}
+
+.experience__description {
+  top: 2926px;
+  left: 959px;
+  width: 717px;
+  height: 33px;
+  text-align: left;
+  font: normal normal bold 25px/33px Segoe UI;
+  letter-spacing: 0px;
+  color: #141b86;
+  opacity: 1;
+  margin-bottom: 20px;
+}
+.experience__img {
+  margin-top: 150px;
+}

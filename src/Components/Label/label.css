@@ -1,0 +1,77 @@
+.label__container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.label__degree {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+
+}
+
+.label__title {
+  top: 2985px;
+  left: 987px;
+  width: 80px;
+  height: 38px;
+  text-align: center;
+  font: normal normal bold 30px/38px Futura PT;
+  letter-spacing: 0px;
+  color: #141b86;
+  opacity: 1;
+}
+.label__degree__line__ejrili {
+  top: 3037px;
+  left: 986px;
+  width: 307px;
+  height: 9px;
+  background: transparent linear-gradient(90deg, #60a7e4 0%, #141b86 100%) 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+  margin-right: 50px;
+  margin-bottom: 0;
+}
+.label__degree__line__ichkili {
+  top: 3122px;
+left: 986px;
+width: 210px;
+height: 9px;
+background: transparent linear-gradient(90deg, #60A7E4 0%, #141B86 100%) 0% 0% no-repeat padding-box;
+opacity: 1;
+margin-right: 150px;
+margin-bottom: 0;
+
+}
+.label__degree__line__bloquih {
+  top: 3207px;
+left: 986px;
+width: 186px;
+height: 9px;
+background: transparent linear-gradient(90deg, #60A7E4 0%, #141B86 100%) 0% 0% no-repeat padding-box;
+opacity: 1;
+margin-right: 175px;
+margin-bottom: 0;
+}
+.label__degree__precent {
+  top: 3017px;
+  left: 1341px;
+  width: 40px;
+  height: 27px;
+  text-align: center;
+  font: normal normal bold 20px/27px Segoe UI;
+  letter-spacing: 0px;
+  color: #141b86;
+  opacity: 1;
+}
+.label__line {
+  top: 3045px;
+  left: 986px;
+  width: 395px;
+  height: 0px;
+  border: 2px solid #141b86;
+  opacity: 1;
+  margin-top: 0;
+}
+

@@ -1,0 +1,41 @@
+.comment__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  top: 3727px;
+  left: 347px;
+  width: 1181px;
+  height: 346px;
+  opacity: 1;
+  background: url(../../assets//home_assets/Groupe96.png) no-repeat;
+  background-position: 330px -7px;
+  background-size: 200px;
+}
+.comment__content {
+  top: 3857px;
+  left: 726px;
+  width: 802px;
+  height: 163px;
+  text-align: left;
+  font: normal normal 600 30px/40px Segoe UI;
+  letter-spacing: 0px;
+  color: #141b86;
+  opacity: 1;
+  margin-left: 50px;
+}
+
+.comment__owner {
+  top: 0px;
+  left: 95px;
+  width: 81px;
+  height: 35px;
+  text-align: left;
+  font: normal normal normal 30px/35px Gill Sans MT;
+  letter-spacing: 0px;
+  color: #141b86;
+  margin-left: 50px;
+  white-space: nowrap;
+}

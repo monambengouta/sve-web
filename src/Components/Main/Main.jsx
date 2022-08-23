@@ -2,7 +2,7 @@ import React from 'react'
 import './main.css'
 function Main() {
   return (
-    <div className='main__section'>
+    <section className='main__section'>
       <div className="slogan">
         ON CRÉE UN RÉEL IMPACT
       </div>
@@ -30,7 +30,7 @@ function Main() {
 
         </ul>
       </div>
-    </div>
+    </section>
   )
 }
 
