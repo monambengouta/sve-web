@@ -58,20 +58,20 @@ function Footer() {
                 <img
                   src={require("../../assets/home_assets/twitter_w.png")}
                   alt="twitter.png"
-                  style={{ width: "31px", height: "20px",marginRight:"20px" }}
+                  style={{ width: "25px", height: "20px",marginRight:"20px" }}
                 />
               </li>
               <li>
                 <img
                   src={require("../../assets/home_assets/instagram_w.png")}
-                  style={{ width: "34px", height: "25px",marginRight:"20px" }}
+                  style={{ width: "26px", height: "25px",marginRight:"20px" }}
                   alt="instagram.png"
                 />
               </li>
               <li>
                 <img
                   src={require("../../assets/home_assets/whatsapp_w.png")}
-                  style={{ width: "32px", height: "18px",marginRight:"20px" }}
+                  style={{ width: "26px", height: "18px",marginRight:"20px" }}
                   alt="whatsapp.png"
                 />
               </li>
