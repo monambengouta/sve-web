@@ -1,0 +1,62 @@
+.aboutussection__container {
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+  margin: 100px 0;
+}
+.aboutussection__item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+  padding: 0 25px;
+}
+.aboutussection__item__text__title {
+  width: 502px;
+  height: 52px;
+  text-align: left;
+  font: normal normal bold 45px/52px Segoe UI;
+  letter-spacing: 0px;
+  color: #141b86;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-bottom: 15px;
+}
+.aboutussection__item__text__body {
+  text-align: left;
+  font: normal normal 600 25px/33px Segoe UI;
+  letter-spacing: 0px;
+  color: #141b86;
+  opacity: 1;
+}
+.aboutussection__item__image {
+  width: 760px;
+  height: 771px;
+  background: #141b86 0% 0% no-repeat padding-box;
+  opacity: 1;
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  overflow: visible;
+}
+.middle{
+  background: url(../../assets/aboutme_assets/Rectangle29.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.title{
+width: 791px;
+height: 76px;
+text-align: center;
+font: normal normal bold 66px/76px Gill Sans MT;
+letter-spacing: 0px;
+color: #141B86;
+text-transform: uppercase;
+opacity: 1;
+margin-bottom: 50px;
+margin-left: 500px;
+}
+.aboutussection__item__text__body__item{
+margin: 50px 0;
+}

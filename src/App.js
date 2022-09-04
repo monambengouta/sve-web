@@ -3,6 +3,7 @@ import './App.css';
 import Home from './Pages/Home/Home'
 import SignIn from './Pages/Authentification/SignIn/SignIn'
 import SignUp from './Pages/Authentification/SignUp/SignUp'
+import AboutUs from './Pages/AboutUs/AboutUs';
 import {
   BrowserRouter,
   Routes,
@@ -22,6 +23,7 @@ function App() {
         <Route exact path="/" element={<Home />}></Route>
         <Route exact path="signin" element={<SignIn />}></Route>
         <Route exact path="signup" element={<SignUp />}></Route>
+        <Route exact path="aboutus" element={<AboutUs />}></Route>
         <Route path="*" element={<Home />} />
     </Routes>
   </BrowserRouter>

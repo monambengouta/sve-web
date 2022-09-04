@@ -1,0 +1,40 @@
+.membreship__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 40px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.membreship__img{
+width: 442px;
+height: 614px;
+box-shadow: 6px 6px 15px #0000001C;
+opacity: 1;
+margin-bottom: 10px;
+
+}
+.membreship__name{
+
+width: 271px;
+height: 38px;
+text-align: left;
+font: normal normal bold 30px/38px Futura PT;
+letter-spacing: 0px;
+color: #141B86;
+text-transform: capitalize;
+}
+.membreship__role{
+
+width: 128px;
+height: 38px;
+text-align: left;
+font-size: 25px;
+font: normal normal medium 50px/38px Futura PT;
+letter-spacing: 0px;
+color: #141B86;
+text-transform: capitalize;
+}

@@ -13,8 +13,7 @@ function ExperienceSection() {
 
       <div className="experience__details">
         <div className="experience__title">
-          {" "}
-          <div className="experience__title__notre">Notre</div>{" "}
+          <div className="experience__title__notre">Notre</div>
           <div className="experience__title__experience">EXPÉRIENCE</div>
         </div>
         <div className="experience__description">
