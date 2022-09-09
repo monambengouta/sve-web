@@ -18,7 +18,7 @@ function ServiceSection() {
         {/*---------------fetch data----------------*/}
         {data.map((item, index) => {
             return (
-                <Service Service={item} key={index}/>)})}
+                <Service Service={item} key={index} navigate ={"nosservices/" + item.title.toLowerCase()} />)})}
     </div>
     </section>
   )

@@ -52,6 +52,7 @@ color: #F8F8FF;
     color: #141B86;
     text-transform: uppercase;
     margin-top: 25vh;
+    cursor: pointer;
 }
 
 ul > li >img {

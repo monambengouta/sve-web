@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../../../Utils/AuthContext";
 import {dologin} from "../../../Services/userService";
+import { Link } from "react-router-dom";
 function SignIn() {
   const initialUserState = {
     email: "",
@@ -46,10 +47,10 @@ function SignIn() {
     <div className="signin__container">
       <div className="signin__label">
         <div className="signin__logo">
-          <img
+         <Link to="/"> <img
             src={require("../../../assets/sign_assets/Groupe1.png")}
             alt="sve_logo.png"
-          />
+          /></Link>
         </div>
         <div className="signin__slagon">
           <div className="signin__title">Vous Revoilà !</div>
@@ -61,9 +62,9 @@ function SignIn() {
       </div>
       <div className="signin__action">
         <div className="signin__connection">
-          <a href="/signup" className="signin__signup">
+          <Link to="/signup" className="signin__signup">
             S'inscire
-          </a>
+          </Link>
           <button className="signin__btn" onClick={routeChange}>
             Se connecter
           </button>
@@ -114,9 +115,9 @@ function SignIn() {
               <div className="remember__me">Se souvenir de moi</div>
             </div>
             <div className="signin__form__forgot">
-              <a href="/signin" className="signin__form__forgot__link">
-                <a href="/signin"> Mot de passe</a> oublié ?
-              </a>
+              <Link to="/signin" className="signin__form__forgot__link">
+               <div className="password__word">Mot de passe</div>  oublié ?
+              </Link>
             </div>
             <div className="signin__form__submit">
               <button className="signin__form__submit__btn">

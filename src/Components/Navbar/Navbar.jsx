@@ -30,7 +30,7 @@ function Navbar(props) {
               </a>
             </li>
             <li className="nav__item">
-              <a href="/" className={props.itemcolor ? "nav__link reverse__nav__link" : "nav__link"}>
+              <a href="/nosservices" className={props.itemcolor ? "nav__link reverse__nav__link" : "nav__link"}>
                 Nos services
               </a>
             </li>

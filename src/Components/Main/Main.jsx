@@ -1,6 +1,11 @@
 import React from 'react'
 import './main.css'
+import { useNavigate } from 'react-router-dom'
 function Main() {
+  const navigate = useNavigate()
+  const handleGetStarted = () => {
+    navigate('/aboutus')
+  }
   return (
     <section className='main__section'>
       <div className="slogan">
@@ -9,7 +14,7 @@ function Main() {
       <div className="description">
         Virtual Safe World est la première Start up engagé grâce à son application dans le combat contre les discriminations de tous genres, de l'harcèlement qu'ils soient dans la vie professionnelle ou bien dans la vie personnelle.
       </div>
-      <button className='look__else'>En savoir plus</button>
+      <button className='look__else' onClick={handleGetStarted}>En savoir plus</button>
       <div className="social__logos">
         <ul>
           <li>

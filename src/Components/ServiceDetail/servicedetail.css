@@ -1,0 +1,125 @@
+.servicedetail__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 60px;
+}
+.servicedetail__img {
+  width: 579px;
+  height: 904 px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.servicedetail__bloc__body__title {
+  display: flex;
+  justify-content: flex-start;
+  width: 530px;
+  height: 144px;
+  text-align: center;
+  font: normal normal 112px/144px Segoe UI;
+  letter-spacing: 0px;
+  color: #5490d5;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.servicedetail__bloc__body__description {
+  top: 517px;
+  left: 137px;
+  width: 854px;
+  height: 177px;
+  text-align: left;
+  font: normal normal 600 30px/40px Segoe UI;
+  letter-spacing: 0px;
+  color: #141b86;
+  opacity: 1;
+  margin-bottom: 75px;
+}
+.servicedetail__bloc__body__link {
+  top: 711px;
+  left: 137px;
+  width: 875px;
+  height: 34px;
+  text-align: left;
+  font: normal normal bold 29px/34px Gill Sans MT;
+  letter-spacing: 0px;
+  color: #5490d5;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.serviecedetail__btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.servicedetail__bloc__body__btn {
+  width: 242px;
+  height: 79px;
+  background: #5490d5 0% 0% no-repeat padding-box;
+  border-radius: 36px;
+  border: none;
+  opacity: 1;
+  margin-right: 27px;
+  /* UI Properties */
+  font: normal normal 600 30px/27px Segoe UI;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.servicedetail__bloc__body__android__spec {
+  width: 414px;
+  height: 47px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 900 35px/48px Segoe UI;
+  letter-spacing: 0px;
+  color: #5490d5;
+  opacity: 1;
+  margin-top: 50px;
+}
+.servicedetail__bloc__body__android__description {
+  width: 814px;
+  height: 102px;
+  text-align: left;
+  font: normal normal 600 30px/40px Segoe UI;
+  letter-spacing: 0px;
+  color: #141b86;
+  opacity: 1;
+}
+.phone__item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  margin: 20px 0;
+}
+.phone__icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 1 0px;
+  margin-right: 10px;
+}
+.phone__item_type {
+  width: 113px;
+  height: 41px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 900 19px/26px Segoe UI;
+  letter-spacing: 0px;
+  color: #141b86;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.arrow {
+  border: 3px solid #141b86;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}

@@ -35,55 +35,55 @@ function SignUp() {
       password: User.password,
       birthdate: User.birthdate,
     };
-    axiosConfig.get(`/getuserEmail/${data.email}`).then((res) => {
-          setPasswordError(false);
-          setMailError(false);
-      if (!res.data) {
-        setMailError(true);
-      } else {
-        if (data.password.length < 8) {
-          setPasswordError(true);
-        } else if ( Object.values(data).some(x => x === null || x === '')){
-          alert("Please fill all the fields");
-        }else{
-          // axiosConfig.post("sendsms",{email: User.email,code:400}).then((res) => {
-          //   console.log(res.data);
-          // }).catch((err) => {
-          //   console.log(err);
-          // });
+    axiosConfig
+      .get(`/getuserEmail/${data.email}`)
+      .then((res) => {
+        setPasswordError(false);
+        setMailError(false);
+        if (!res.data) {
+          setMailError(true);
+        } else {
+          if (data.password.length < 8) {
+            setPasswordError(true);
+          } else if (Object.values(data).some((x) => x === null || x === "")) {
+            alert("Please fill all the fields");
+          } else {
+            // axiosConfig.post("sendsms",{email: User.email,code:400}).then((res) => {
+            //   console.log(res.data);
+            // }).catch((err) => {
+            //   console.log(err);
+            // });
 
-          axiosConfig
-          .post("/createuser", data)
-          .then((res) => {
-            navigate("/signin");
-          })
-          .catch((err) => {
-            console.log("error in signup");
-          })
-          .finally(() => {
-            setUser(initialUserState);
-          });
+            axiosConfig
+              .post("/createuser", data)
+              .then((res) => {
+                navigate("/signin");
+              })
+              .catch((err) => {
+                console.log("error in signup");
+              })
+              .finally(() => {
+                setUser(initialUserState);
+              });
+          }
         }
-      }
-    })
-    .catch((err) => {
-      console.log(err);
-    });
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   };
-
-  // const newUser = () => {
-  //   setUser(initialUserState);
-  //   setSubmitted(false);
-  // };
 
   return (
     <div className="signup__container">
       <div className="signup__label">
         <div className="signup__logo">
-          <img
-            src={require("../../../assets/sign_assets/Groupe1.png")}
-            alt="sve_logo.png"
-          />
+          <Link to="/">
+            {" "}
+            <img
+              src={require("../../../assets/sign_assets/Groupe1.png")}
+              alt="sve_logo.png"
+            />
+          </Link>
         </div>
         <div className="signup__slagon">
           <div className="signup__title">Bienvenu !</div>
@@ -173,7 +173,14 @@ function SignUp() {
                 className="signup__form__input"
                 required
               />
-              {mailError && <div className="signup__form__error" style={{color:"red", marginBottom:"10px"}}>Email already exists</div>}
+              {mailError && (
+                <div
+                  className="signup__form__error"
+                  style={{ color: "red", marginBottom: "10px" }}
+                >
+                  Email already exists
+                </div>
+              )}
             </div>
             <div>
               <input
@@ -184,9 +191,12 @@ function SignUp() {
                 onChange={handleInputChange}
                 className="signup__form__input"
                 required
-               
               />
-              {passwordError && <div className="signup__form__error" style={{color:"red"}}>Password must be at least 8 characters</div>}
+              {passwordError && (
+                <div className="signup__form__error" style={{ color: "red" }}>
+                  Password must be at least 8 characters
+                </div>
+              )}
             </div>
             <div className="signup__form__submit">
               <button className="signup__form__submit__btn">S'INSCRIRE</button>

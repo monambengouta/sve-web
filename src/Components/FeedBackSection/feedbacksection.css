@@ -47,3 +47,9 @@ margin: 0 15px;
   flex-direction: row;
   margin-bottom: 50px;
 }
+.swiper-pagination-bullet{
+ width: 40px;
+height: 40px;
+background-color: #141B86;
+
+}
