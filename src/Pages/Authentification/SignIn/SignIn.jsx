@@ -3,8 +3,9 @@ import "./signin.css";
 import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../../../Utils/AuthContext";
-import {dologin} from "../../../Services/userService";
 import { Link } from "react-router-dom";
+const  {dologin} = require("../../../Services/userService");
+
 function SignIn() {
   const initialUserState = {
     email: "",
