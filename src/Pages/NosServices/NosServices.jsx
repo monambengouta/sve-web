@@ -1,6 +1,6 @@
 import React from "react";
 import "./nosservices.css";
-import ServiceDetail from "../../Components/ServiceDetail/ServiceDetail";
+// import ServiceDetail from "../../Components/ServiceDetail/ServiceDetail";
 import ExperienceSection from "../../Components/ExperienceSection/ExperienceSection";
 import Navbar from "../../Components/Navbar/Navbar";
 import FeedBackSection from "../../Components/FeedBackSection/FeedBackSection";
@@ -11,7 +11,9 @@ function NosServices(props) {
     <div className="nosservices__container">
       <Navbar itemcolor={true} />
       <Outlet />
-      <ServiceDetail index={0} />
+      {/* {
+        props.none ? <ServiceDetail index={0} /> : null
+      } */}
       <ExperienceSection />
       <FeedBackSection />
       <Footer />
